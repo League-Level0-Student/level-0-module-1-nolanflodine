@@ -16,10 +16,12 @@
 	
 	public class RobotInSpace implements KeyEventDispatcher {
 		
-	Robot rob = new Robot("mini");
+	Robot rob = new Robot("june");
 
 	/*  Make the Robot move around the screen when the arrow keys are pressed... */
 	private void moveRobot(int keyPressed) {
+		System.out.println(keyPressed);
+		
 	    // 0. Print out the keyPressed variable and write down the numbers for each arrow key
 
 	    // 1. If the up arrow is pressed, move the Robot up the screen.
